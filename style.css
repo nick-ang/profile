@@ -51,16 +51,11 @@ h3 {
 body {
     color: rgb(247, 243, 243);
     font-family: Poppins;
-    height: 100%;
-    /* width: 99%; */
-    /* background-color: rgba(90, 300, 13, 0.1); */
     background-image: url(images/background2.gif);
-    /* background-size: auto; */
-    background-position: cover;
     background-attachment: fixed;
     background-size: cover;
-    background-position-x: 72%;
-    background-position-y: 90%;
+    background-position-y: 120%;
+    background-position-x: 100%;
 }
 
 #linkedin_link:hover {
