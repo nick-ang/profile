@@ -5,7 +5,7 @@ h2 {
 }
 
 .container {
-  margin: 0px auto;
+  margin: 40px auto;
   text-align: center;
   width: 500px;   /* This sets the width *//* This automatically sets left/right margins */
 }
