@@ -5,8 +5,9 @@ h2 {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  margin: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .circular--square {
@@ -18,15 +19,10 @@ h2 {
 
 .listcard {
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 20px;
-  list-style: none;
-  background: white;                         /* White background */                             /* Internal space */
-  border-radius: 4px;
-  width: 100%;        /* Set the width *      /* Set automatic margins on right/left */                    /* Small radius */
+  width: 97%;
+  padding: 10px;
+  background: white;                         /* White background *                             /* Internal space */
+  margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
 }
 
@@ -42,13 +38,9 @@ h2 {
 
 .detailscard{
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  width: 97%;
+  padding: 10px;
   background: white;                         /* White background *                             /* Internal space */
-  border-radius: 4px;
-  width: 100%;
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
 }
@@ -81,7 +73,7 @@ body {
 
 #ul_icon{
   color: rgb(0, 0, 0);
-  padding: 2px;
+  padding: 10px;
   border-radius: 20%;
   background-color: rgba(0, 0, 0, 0.1);
 }
