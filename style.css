@@ -17,10 +17,10 @@ h2 {
   margin-right: auto;
 }
 
-.listcard {
+.card {
   text-align: center;
   padding: 50px 50px 50px 50px;
-  background: white;                         /* White background *                             /* Internal space */
+  background-color: rgba(228, 219, 207, 0.9);                         /* White background *                             /* Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
 }
@@ -33,14 +33,6 @@ h2 {
 #ul_top_hypers {
   text-align: center;
   padding: 20px 20px 30px;
-}
-
-.detailscard{
-  text-align: center;
-  padding: 50px 50px 50px 50px;
-  background: white;                         /* White background *                             /* Internal space */
-  margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
 }
 
 h1 {
@@ -60,8 +52,8 @@ body {
   color: rgb(0, 0, 0);
   font-family: Poppins;
   height: 100%;
-  background-color: rgba(90, 300, 13, 0.1);
-  /* background-image: url("images/face.jpeg"); */
+  /* background-color: rgba(90, 300, 13, 0.1); */
+  background-image: url("images/background.jpeg");
 }
 
 #linkedin_link:hover {
@@ -88,6 +80,7 @@ body {
 
 #linkedin_link {
   text-align: center;
+  text-decoration: none;
   color: rgb(255, 255, 255);                     /* White background */
   padding: 10px;                           /* Internal space */
   border-radius: 4px;
