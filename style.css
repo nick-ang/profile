@@ -19,8 +19,8 @@ h2 {
 
 .listcard {
   text-align: center;
-  width: 97%;
-  padding: 10px;
+  width: 85%;
+  padding: 50px 50px 50px 50px;
   background: white;                         /* White background *                             /* Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
@@ -38,8 +38,8 @@ h2 {
 
 .detailscard{
   text-align: center;
-  width: 97%;
-  padding: 10px;
+  width: 85%;
+  padding: 50px 50px 50px 50px;
   background: white;                         /* White background *                             /* Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
