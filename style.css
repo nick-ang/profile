@@ -22,7 +22,7 @@ h2 {
   padding: 30px 50px 30px 50px;
   background-color: rgba(255, 255, 255, 0.01);                         /* White background *                             /* Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.01);    /* Light shadow */
 }
 
 #ul_top_hypers li{
