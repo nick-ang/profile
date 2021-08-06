@@ -60,6 +60,7 @@ body {
 #linkedin_link:hover {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 1);
+  transition: .6s;
 }
 
 #ul_icon{
@@ -72,6 +73,7 @@ body {
 #ul_icon:hover{
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 1);
+  transition: .6s;
 }
 
 .text_linkedin{
