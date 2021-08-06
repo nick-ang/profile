@@ -54,8 +54,7 @@ body {
     background-image: url(images/background2.gif);
     background-attachment: fixed;
     background-size: cover;
-    background-position-y: 120%;
-    background-position-x: 90%;
+    background-position-y: 80%;
 }
 
 #linkedin_link:hover {
