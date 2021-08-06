@@ -6,7 +6,7 @@ h2 {
 
 .container {
   margin: auto;
-  width: 80%;
+  width: 60%;
   padding: 10px;
 }
 
@@ -19,8 +19,8 @@ h2 {
 
 .card {
   text-align: center;
-  padding: 30px 50px 30px 50px;
-  background-color: rgba(255, 255, 255, 0.01);                         /* White background *                             /* Internal space */
+  padding: 10px 10px 10px 10px;
+  /* background-color: rgba(255, 255, 255, 0.01);                         /* White background *                             Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,0.01);    /* Light shadow */
 }
@@ -49,18 +49,24 @@ h3 {
 }
 
 body {
-  color: rgb(247, 243, 243);
-  font-family: Poppins;
-  height: 100%;
-  /* background-color: rgba(90, 300, 13, 0.1); */
-  background-image: url("images/background2.gif");
-  background-position: 98%;
+    color: rgb(247, 243, 243);
+    font-family: Poppins;
+    height: 100%;
+    /* width: 99%; */
+    /* background-color: rgba(90, 300, 13, 0.1); */
+    background-image: url(images/background2.gif);
+    /* background-size: auto; */
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 44%;
+    background-position-y: 85%;
 }
 
 #linkedin_link:hover {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 1);
-  transition: .6s;
+  transition: .4s;
 }
 
 #ul_icon{
@@ -73,7 +79,7 @@ body {
 #ul_icon:hover{
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 1);
-  transition: .6s;
+  transition: .4s;
 }
 
 .text_linkedin{
