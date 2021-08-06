@@ -1,0 +1,128 @@
+h2 {
+  color: red;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.container {
+  margin: 40px auto;
+  text-align: center;
+  width: 500px;   /* This sets the width *//* This automatically sets left/right margins */
+}
+
+.circular--square {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listcard {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  background: white;                         /* White background */                             /* Internal space */
+  border-radius: 4px;
+  width: 100%;        /* Set the width *      /* Set automatic margins on right/left */                    /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+#ul_top_hypers li{
+  display: inline;
+  padding: 20px 20px 30px;
+}
+
+#ul_top_hypers {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.detailscard{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: white;                         /* White background *                             /* Internal space */
+  border-radius: 4px;
+  width: 100%;        /* Set the width */
+  margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+h1 {
+  color: red;
+  font-size: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  font-family: Mukta;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  height: 100%;
+  background-color: rgba(90, 300, 13, 0.1);
+  /* background-image: url("images/face.jpeg"); */
+}
+
+#linkedin_link:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#ul_icon{
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 0%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#ul_icon:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.text_linkedin{
+  padding: 10px;
+}
+
+
+#linkedin_link {
+  text-align: center;
+  color: rgb(255, 255, 255);                     /* White background */
+  padding: 10px;                           /* Internal space */
+  border-radius: 4px;
+  width: 100%;        /* Set the width */
+  margin: 0 auto;      /* Set automatic margins on right/left */                    /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  background-color: rgb(39, 155, 139);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
