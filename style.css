@@ -6,7 +6,7 @@ h2 {
 
 .container {
   margin: auto;
-  width: 60%;
+  width: 80%;
   padding: 10px;
 }
 
@@ -19,7 +19,6 @@ h2 {
 
 .listcard {
   text-align: center;
-  width: 85%;
   padding: 50px 50px 50px 50px;
   background: white;                         /* White background *                             /* Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
@@ -38,7 +37,6 @@ h2 {
 
 .detailscard{
   text-align: center;
-  width: 85%;
   padding: 50px 50px 50px 50px;
   background: white;                         /* White background *                             /* Internal space */
   margin-bottom: 20px;      /* Set automatic margins on right/left */                    /* Small radius */
