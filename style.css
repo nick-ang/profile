@@ -58,7 +58,7 @@ body {
     background-position-x: 45%;
 }
 
-#linkedin_link:hover {
+#projects_link:hover {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 1);
   transition: .4s;
@@ -77,12 +77,12 @@ body {
   transition: .4s;
 }
 
-.text_linkedin{
+.text_projects{
   padding: 20px;
 }
 
 
-#linkedin_link {
+#projects_link {
   text-align: center;
   text-decoration: none;
   color: rgb(255, 255, 255);                     /* White background */
